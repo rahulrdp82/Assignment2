@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.resume-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #ffb700;
+  padding-bottom: 20px;
+}
+
+.left-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.right-header p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Personal Profile */
+.personal-profile {
+  margin: 20px 0;
+
+}
+
+/* Skills Section */
+
+
+/* Key Skills Section */
+.key-skills-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px 0; /* Adds some margin to separate from other sections */
+}
+
+.key-skills-title {
+  flex: 1;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 10px; /* Adds space between the grid items */
+  flex: 2;
+}
+
+.skills p {
+  margin: 0;
+  padding: 10px;
+  background-color: #ffb700; /* Background color for skills */
+  color: #fff; /* White text color */
+  border-radius: 8px; /* Rounded corners for a clean look */
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase; /* Makes text uppercase */
+  transition: background-color 0.3s ease;
+}
+
+.skills p:hover {
+  background-color: #e09e00; /* Darker background color on hover */
+}
+
+
+
+
+
+
+
+
+/* Work Experience */
+.work-experience .job {
+  margin-bottom: 20px;
+}
+
+.work-experience h3 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.work-experience p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+
+/* Education.css */
+.education-section {
+  margin: 30px 0;
+}
+
+.education-entry {
+  margin-bottom: 20px;
+}
+
+.institution {
+  font-size: 1.2em;
+  font-weight: bold; /* Institution should be bold */
+  color: #333; /* A readable color for the institution */
+}
+
+/* Ensure degree, year, and GPA have regular weight and readable color */
+.degree, .year, .gpa {
+  font-size: 1.1em;
+  font-weight: normal; /* Makes the text regular, not bold */
+   /* Slightly lighter color but still readable */
+  font-style: normal; /* Ensures it's not italicized */
+}
+
+
+/* Footer (Optional for deployment) */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  color: #888;
+}
